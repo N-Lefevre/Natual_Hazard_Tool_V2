@@ -1,0 +1,225 @@
+#5070
+rcra_handlers:
+    table: 
+        table_name: rcra_handlers_source
+        table_columns:
+            REGION: varchar
+            ACTIVITY_LOCATION: varchar
+            HANDLER_ID: varchar
+            HANDLER_NAME: varchar
+            LOCATION_ADDRESS: varchar
+            LOCATION_LATITUDE: float8
+            LOCATION_LONGITUDE: float8
+            FEDERAL_GENERATOR_STATUS: varchar
+            PERMITTED_STATUS: varchar
+            IS_CA: varchar
+            TSDF_YES_NO: varchar
+            geometry: Geometry(POINT, 4326) # Spatial reference must match with the outSR in query_params
+    method: method_fl_query
+    method_configs:
+        query_url: "https://services.arcgis.com/cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_HANDLERS/FeatureServer/3/query"
+        client_id: False
+        query_params:
+            where: shape is not null
+            outFields: REGION, ACTIVITY_LOCATION, HANDLER_ID, HANDLER_NAME, LOCATION_ADDRESS, LOCATION_LATITUDE, LOCATION_LONGITUDE, FEDERAL_GENERATOR_STATUS, PERMITTED_STATUS, IS_CA, TSDF_YES_NO
+            maxAllowableOffset: 0.00001
+            geometryPrecision: 5
+            outSR: 4326
+
+pcb_facilities:
+    table: 
+        table_name: pcb_facilities_source
+        table_columns:
+            REGION: char(2)
+            SITE_ID: char(12)
+            SITE_NAME: varchar(128)
+            LOCATION_ADDRESS: varchar(128)
+            LATITUDE: float4
+            LONGITUDE: float4
+            APPROVAL_STATUS: varchar(64)
+            APPROVAL_ACTIVITY_TYPE: varchar(32)
+            APPROVAL_TYPES: varchar(256)
+            TYPE_OF_PCB_ACTIVITIES: varchar(256)
+            LOCATION_STATE: char(2)
+            geometry: Geometry(POINT, 4326) # Spatial reference must match with the outSR in query_params
+    method: method_fl_query
+    method_configs:
+        query_url: "https://services.arcgis.com/cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query"
+        client_id: False
+        query_params:
+            where: shape is not null
+            outFields: REGION, SITE_ID, SITE_NAME, LOCATION_ADDRESS, LATITUDE, LONGITUDE, APPROVAL_STATUS, APPROVAL_ACTIVITY_TYPE, APPROVAL_TYPES, TYPE_OF_PCB_ACTIVITIES, LOCATION_STATE
+            maxAllowableOffset: 0.00001
+            geometryPrecision: 5
+            outSR: 4326
+
+heavy_precipitation:
+    table: 
+        table_name: heavy_precipitation_source
+        table_columns:
+            historical: float8
+            ssp245_204: float8
+            ssp245_208: float8
+            ssp585_204: float8
+            ssp585_208: float8
+            geometry: Geometry(MULTIPOLYGON, 4326) # Spatial reference must match with the outSR in query_params
+    method: method_fl_query
+    method_configs:
+        query_url: "https://services.arcgis.com/cJ9YHowT8TU7DUyn/ArcGIS/rest/services/US_Blockgroup_Heavy_Precip_Indicators/FeatureServer/0/query"
+        client_id: False
+        query_params:
+            where: shape is not null
+            outFields: historical, ssp245_204, ssp245_208, ssp585_204, ssp585_208
+            maxAllowableOffset: 0.00001
+            geometryPrecision: 5
+            outSR: 4326
+
+hand:
+    table: 
+        table_name: hand_source
+        table_columns:
+            MEDIAN: float8
+            geometry: Geometry(MULTIPOLYGON, 4326) # Spatial reference must match with the outSR in query_params
+    method: method_fl_query
+    method_configs:
+        query_url: "https://services.arcgis.com/cJ9YHowT8TU7DUyn/ArcGIS/rest/services/HeightAboveNearestDrainage_Nationwide_BlockGroup/FeatureServer/0/query"
+        client_id: False
+        query_params:
+            where: shape is not null
+            outFields: MEDIAN
+            maxAllowableOffset: 0.00001
+            geometryPrecision: 5
+            outSR: 4326
+
+max_summer_temp:
+    table: 
+        table_name: max_summer_temp_source
+        table_columns:
+            historical: float8
+            ssp245_204: float8
+            ssp245_208: float8
+            ssp585_204: float8
+            ssp585_208: float8
+            geometry: Geometry(MULTIPOLYGON, 4326) # Spatial reference must match with the outSR in query_params
+    method: method_fl_query
+    method_configs:
+        query_url: "https://services.arcgis.com/cJ9YHowT8TU7DUyn/ArcGIS/rest/services/Max_Summer_Temp_CONUS_Historical_1995_2014/FeatureServer/1/query"
+        client_id: 2VkDDD1BPuRMQ5it
+        query_params:
+            where: shape is not null
+            outFields: historical, ssp245_204, ssp245_208, ssp585_204, ssp585_208
+            maxAllowableOffset: 0.00001
+            geometryPrecision: 5
+            outSR: 4326
+
+drought_one_month:
+    table:
+        table_name: drought_one_month_source
+        table_columns:
+            outlook: varchar
+            geometry: Geometry(MULTIPOLYGON, 4326)
+    method: method_fl_query
+    method_configs:
+        query_url: "https://mapservices.weather.noaa.gov/vector/rest/services/outlooks/cpc_drought_outlk/FeatureServer/1/query"
+        client_id: False
+        query_params:
+            where: shape is not null
+            outFields: outlook
+            maxAllowableOffset: 0.00001
+            geometryPrecision: 5
+            outSR: 4326
+
+drought_seasonal:
+    table:
+        table_name: drought_seasonal_source
+        table_columns:
+            outlook: varchar
+            geometry: Geometry(MULTIPOLYGON, 4326)
+    method: method_fl_query
+    method_configs:
+        query_url: "https://mapservices.weather.noaa.gov/vector/rest/services/outlooks/cpc_drought_outlk/FeatureServer/4/query"
+        client_id: False
+        query_params:
+            where: shape is not null
+            outFields: outlook
+            maxAllowableOffset: 0.00001
+            geometryPrecision: 5
+            outSR: 4326
+
+drought_future:
+    table: 
+        table_name: drought_future_source
+        table_columns:
+            historical: int4
+            ssp245_204: int4
+            ssp245_208: int4
+            ssp585_204: int4
+            ssp585_208: int4
+            geometry: Geometry(MULTIPOLYGON, 4326) # Spatial reference must match with the outSR in query_params
+    method: method_fl_query
+    method_configs:
+        query_url: "https://services.arcgis.com/cJ9YHowT8TU7DUyn/ArcGIS/rest/services/Drought_CONUS_Historical_1995_2014/FeatureServer/0/query"
+        client_id: 2VkDDD1BPuRMQ5it
+        query_params:
+            where: shape is not null
+            outFields: historical, ssp245_204, ssp245_208, ssp585_204, ssp585_208
+            maxAllowableOffset: 0.00001
+            geometryPrecision: 5
+            outSR: 4326
+
+wildfire_percent:
+    table: 
+        table_name: wildfire_percent_source
+        table_columns:
+            hist_1994_: float8
+            rcp45_2040: float8
+            rcp45_2080: float8         
+            rcp85_2040: float8
+            rcp85_2080: float8
+            geometry: Geometry(MULTIPOLYGON, 4326) # Spatial reference must match with the outSR in query_params
+    method: method_fl_query
+    method_configs:
+        query_url: "https://services.arcgis.com/cJ9YHowT8TU7DUyn/ArcGIS/rest/services/Wildfire_historical_1994_2013/FeatureServer/0/query"
+        client_id: 2VkDDD1BPuRMQ5it
+        query_params:
+            where: shape is not null
+            outFields: hist_1994_, rcp45_2040, rcp45_2080, rcp85_2040, rcp85_2080
+            maxAllowableOffset: 0.00001
+            geometryPrecision: 5
+            outSR: 4326
+
+fema_nfhl:
+    table: 
+        table_name: fema_nfhl_source
+        table_columns:
+            FLD_ZONE: varchar(17)
+            esri_symbology: varchar(50)
+            geometry: Geometry(MULTIPOLYGON, 3857) # Spatial reference must match with the outSR in query_params
+    method: method_fl_query
+    method_configs:
+        query_url: "https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/USA_Flood_Hazard_Reduced_Set_gdb/FeatureServer/0/query"
+        client_id: False
+        query_params:
+            where: shape is not null and DFIRM_ID = '110001'
+            outFields: FLD_ZONE, esri_symbology
+            maxAllowableOffset: 2
+            geometryPrecision: 0.1
+            outSR: 3857
+
+# fema_nfhl:
+#     table: 
+#         table_name: fema_nfhl_source
+#         table_columns:
+#             FLD_ZONE: varchar(17)
+#             esri_symbology: varchar(50)
+#             geometry: Geometry(MULTIPOLYGON, 3857) # Spatial reference must match with the outSR in query_params
+#     method: method_fl_query
+#     method_configs:
+#         query_url: "https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/USA_Flood_Hazard_Reduced_Set_gdb/FeatureServer/0/query"
+#         client_id: False
+#         query_params:
+#             where: shape is not null
+#             outFields: FLD_ZONE, esri_symbology
+#             maxAllowableOffset: 200
+#             geometryPrecision: 0
+#             outSR: 3857

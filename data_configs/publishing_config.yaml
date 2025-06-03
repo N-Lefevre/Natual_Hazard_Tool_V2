@@ -1,0 +1,91 @@
+#publishing_config.yaml
+publish_tables_configs:
+    rcra_sites_intersections_publish:
+        publish_as:
+            - table_to_geopackage: 
+                overwrite_geopackage: True
+                source_table_name: rcra_sites_intersections_publish
+                geopackage_file_path: output/rcra_waste_handlers_intersections.gpkg
+                geopackage_table_name: rcra_handlers_intersections # This will be the name of the table in the geopackage. If it exists, it will be overwritten.
+            # table_to_agol_feature_service:
+            #     overwrite_table: True
+            #     source_table_name: rcra_sites_intersections_publish
+            #     feature_service_name: rcra_sites_intersections
+            #     feature_service_description: "RCRA Sites Intersections"
+            #     feature_service_tags: "RCRA, Sites, Intersections"
+            #     feature_service_summary: "RCRA Sites Intersections"
+            #     feature_service_url: "https://services.arcgis.com/cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_Sites_Intersections/FeatureServer"
+        build_table_config:
+            - copy_table:
+                new_table: rcra_sites_intersections_publish
+                original_table: rcra_handlers_prepared
+                columns:
+                    REGION: varchar
+                    ACTIVITY_LOCATION: varchar
+                    HANDLER_ID: varchar
+                    HANDLER_NAME: varchar
+                    LOCATION_ADDRESS: varchar
+                    LOCATION_LATITUDE: float8
+                    LOCATION_LONGITUDE: float8
+                    FEDERAL_GENERATOR_STATUS: varchar
+                    PERMITTED_STATUS: varchar
+                    IS_CA: varchar
+                    TSDF_YES_NO: varchar
+                    geometry: Geometry(Point, 4326) # Ensure the spatial reference is the same as the original table
+            - left_join_table:
+                join_column: HANDLER_ID
+                original_table: rcra_sites_intersections_publish
+                joining_table: rcra_sites_intersections
+                output_table: rcra_sites_intersections_publish
+                include_columns: False
+                exclude_columns:
+                    - geom_buff      
+            - remove_columns:
+                table_name: rcra_sites_intersections_publish
+                remove_columns: []
+                remove_columns_trails: ['__vals', '__haz_vals', '__haz_max']
+
+    pcb_facilities_intersections_publish:
+        publish_as:
+            - table_to_geopackage: 
+                overwrite_geopackage: True
+                source_table_name: pcb_facilities_intersections_publish
+                geopackage_file_path: output/pcb_facilities_intersections.gpkg
+                geopackage_table_name: pcb_facilities_intersections # This will be the name of the table in the geopackage. If it exists, it will be overwritten.
+            # table_to_agol_feature_service:
+            #     overwrite_table: True
+            #     source_table_name: rcra_sites_intersections_publish
+            #     feature_service_name: rcra_sites_intersections
+            #     feature_service_description: "RCRA Sites Intersections"
+            #     feature_service_tags: "RCRA, Sites, Intersections"
+            #     feature_service_summary: "RCRA Sites Intersections"
+            #     feature_service_url: "https://services.arcgis.com/cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_Sites_Intersections/FeatureServer"
+        build_table_config:
+            - copy_table:
+                new_table: pcb_facilities_intersections_publish
+                original_table: pcb_facilities_prepared
+                columns:
+                    REGION: char(2)
+                    SITE_ID: char(12)
+                    SITE_NAME: varchar(128)
+                    LOCATION_ADDRESS: varchar(128)
+                    LATITUDE: float4
+                    LONGITUDE: float4
+                    APPROVAL_STATUS: varchar(64)
+                    APPROVAL_ACTIVITY_TYPE: varchar(32)
+                    APPROVAL_TYPES: varchar(256)
+                    TYPE_OF_PCB_ACTIVITIES: varchar(256)
+                    LOCATION_STATE: char(2)
+                    geometry: Geometry(POINT, 4326)
+            - left_join_table:
+                join_column: SITE_ID
+                original_table: pcb_facilities_intersections_publish
+                joining_table: pcb_facilities_intersections
+                output_table: pcb_facilities_intersections_publish
+                include_columns: False
+                exclude_columns:
+                    - geom_buff      
+            - remove_columns:
+                table_name: pcb_facilities_intersections_publish
+                remove_columns: []
+                remove_columns_trails: ['__vals', '__haz_vals', '__haz_max']

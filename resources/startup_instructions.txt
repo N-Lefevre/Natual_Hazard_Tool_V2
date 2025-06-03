@@ -1,0 +1,6 @@
+Welcome to the RCRA natural hazard screening tool data management program!
+
+Here are the basics to get started:
+1. Before running, configure settings in the basic_settings file.
+
+Please refer to the documentation for more detailed instructions and information

@@ -1,0 +1,292 @@
+# Ensure values are set correctly. Incorrect values will not populate the intersections columns correctly and may cause a crash
+
+# Hazard Value Classification: ordinal, nominal, continuous, discrete
+# How hazard values will be ordered in the intersection table:
+# If ordinal, create list of hazard values from least to most severe. []
+# If nominal, create list of hazard values in order of preference. []
+# If continuous or discrete, set to operator '>' (largest to smallest) or '<' (smallest to largest) to sort values. >, >=, <=, <
+# EX: continuous / discrete - hazard_values_order: <
+# EX: ordinal -  hazard_values_order: ['low', 'moderate', 'high']
+# EX: nominal - hazard_values_order: ['purple', 'grey', 'blue']
+
+# Hazard value threshold:
+# If ordinal, set to the value from the list in hazard_values_order that represents the minimum threshold of concern. ''
+# If nominal, set as list of hazard values from the list in hazard_values_order that represent a threshold of concern. []
+# If continuous or discrete, set as the minimum threshold value if hazard_values_order is set to '>'. Set as the maximum threshold value if hazard_values_order is set to '<'.
+# If discrete, values must be integers.
+# EX: discrete - hazard_value_threshold: 15
+# EX: continuous - hazard_value_threshold: 3.462
+# EX: orindal - hazard_value_threshold: ['modetate']
+# EX: nominal - hazard_value_threshold: ['purple', 'blue']
+
+intersection_tables:
+  rcra_sites_intersections: # This will be the name of the intersection table
+    source_table: rcra_handlers_prepared # The prepared source table created when preparing the source table
+    source_unique_id_column: 'HANDLER_ID' # The unique ID column created when preparing the source table. Must be unique
+    source_geometry_column: 'geometry_transformed' # Must be the polygon geometry column created when preparing the source table
+    buffer_distance: 1000 # Buffer distance in meters
+    buffer_quadrant_segments: 5 # Number of segments per quadrant to use when creating the buffer. Total segments will be 4 * this number.
+    hazards: # List of hazards to intersect with the source table
+      - heavy_precip_hist
+      - heavy_precip_ssp245_204
+      - heavy_precip_ssp245_208
+      - heavy_precip_ssp585_204
+      - heavy_precip_ssp585_208
+      - hand
+      - max_sum_temp_hist
+      - max_sum_temp_ssp245_204
+      - max_sum_temp_ssp245_208
+      - max_sum_temp_ssp585_204
+      - max_sum_temp_ssp585_208
+      - drght_one_mon
+      - drght_seas
+      - drght_mon_hist
+      - drght_mon_ssp245_204
+      - drght_mon_ssp245_208
+      - drght_mon_ssp585_204
+      - drght_mon_ssp585_208
+      - wildfire_hist
+      - wildfire_rcp45_2040
+      - wildfire_rcp45_2080
+      - wildfire_rcp85_2040
+      - wildfire_rcp85_2080
+      - fema_nfhl
+
+  pcb_facilities_intersections: # This will be the name of the intersection table
+    source_table: pcb_facilities_prepared # The prepared source table created when preparing the source table
+    source_unique_id_column: 'SITE_ID' # The unique ID column created when preparing the source table. Must be unique
+    source_geometry_column: 'geometry_transformed' # Must be the polygon geometry column created when preparing the source table
+    buffer_distance: 1000 # Buffer distance in meters
+    buffer_quadrant_segments: 5 # Number of segments per quadrant to use when creating the buffer. Total segments will be 4 * this number.
+    hazards: # List of hazards to intersect with the source table
+      - heavy_precip_hist
+      - heavy_precip_ssp245_204
+      - heavy_precip_ssp245_208
+      - heavy_precip_ssp585_204
+      - heavy_precip_ssp585_208
+      - hand
+      - max_sum_temp_hist
+      - max_sum_temp_ssp245_204
+      - max_sum_temp_ssp245_208
+      - max_sum_temp_ssp585_204
+      - max_sum_temp_ssp585_208
+      - drght_one_mon
+      - drght_seas
+      - drght_mon_hist
+      - drght_mon_ssp245_204
+      - drght_mon_ssp245_208
+      - drght_mon_ssp585_204
+      - drght_mon_ssp585_208
+      - wildfire_hist
+      - wildfire_rcp45_2040
+      - wildfire_rcp45_2080
+      - wildfire_rcp85_2040
+      - wildfire_rcp85_2080
+      - fema_nfhl
+
+
+#hazards that will be intersected with the sites. Column names will be built from the keys in this section
+hazards: 
+  heavy_precip_hist:
+    source_table: heavy_precipitation_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'historical'
+    hazard_value_classification: continuous
+    hazard_values_order: '>=' # hazard values that are > than the hazard_value_threshold will be considered a hazard
+    hazard_value_threshold: 15.2 # Must be float of continuous, integer if discrete
+  heavy_precip_ssp245_204:
+    source_table: heavy_precipitation_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'ssp245_204'
+    hazard_value_classification: continuous
+    hazard_values_order: '>='
+    hazard_value_threshold: 15.2 # Must be float of continuous, integer if discrete
+  heavy_precip_ssp245_208:
+    source_table: heavy_precipitation_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'ssp245_208'
+    hazard_value_classification: continuous
+    hazard_values_order: '>='
+    hazard_value_threshold: 15.2 # Must be float of continuous, integer if discrete
+  heavy_precip_ssp585_204:
+    source_table: heavy_precipitation_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'ssp585_204'
+    hazard_value_classification: continuous
+    hazard_values_order: '>='
+    hazard_value_threshold: 15.2 # Must be float of continuous, integer if discrete
+  heavy_precip_ssp585_208:
+    source_table: heavy_precipitation_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'ssp585_208'
+    hazard_value_classification: continuous
+    hazard_values_order: '>='
+    hazard_value_threshold: 15.2 # Must be float of continuous, integer if discrete
+
+  hand:
+    source_table: hand_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'median'
+    hazard_value_classification: continuous
+    hazard_values_order: '<='
+    hazard_value_threshold: 5.0 # Must be float of continuous, integer if discrete
+
+  max_sum_temp_hist:
+    source_table: max_summer_temp_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'historical'
+    hazard_value_classification: continuous
+    hazard_values_order: '>='
+    hazard_value_threshold: 109.4 # Must be float of continuous, integer if discrete
+  max_sum_temp_ssp245_204:
+    source_table: max_summer_temp_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'ssp245_204'
+    hazard_value_classification: continuous
+    hazard_values_order: '>='
+    hazard_value_threshold: 109.4 # Must be float of continuous, integer if discrete
+  max_sum_temp_ssp245_208:
+    source_table: max_summer_temp_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'ssp245_208'
+    hazard_value_classification: continuous
+    hazard_values_order: '>='
+    hazard_value_threshold: 109.4 # Must be float of continuous, integer if discrete
+  max_sum_temp_ssp585_204:
+    source_table: max_summer_temp_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'ssp585_204'
+    hazard_value_classification: continuous
+    hazard_values_order: '>='
+    hazard_value_threshold: 109.4 # Must be float of continuous, integer if discrete
+  max_sum_temp_ssp585_208:
+    source_table: max_summer_temp_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'ssp585_208'
+    hazard_value_classification: continuous
+    hazard_values_order: '>='
+    hazard_value_threshold: 109.4 # Must be float of continuous, integer if discrete
+
+  # drght_one_mon:
+  #   source_table: drought_one_month_prepared
+  #   source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+  #   hazard_field: 'outlook'
+  #   hazard_value_classification: ordinal
+  #   hazard_values_order: ['No_Drought', 'Development', 'Removal', 'Improvement', 'Persistence']
+  #   hazard_value_threshold: 'Development' # Must be float of continuous, integer if discrete
+
+  # drght_seas:
+  #   source_table: drought_seasonal_prepared
+  #   source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+  #   hazard_field: 'outlook'
+  #   hazard_value_classification: ordinal
+  #   hazard_values_order: ['No_Drought', 'Development', 'Removal', 'Improvement', 'Persistence']
+  #   hazard_value_threshold: 'Development' # Must be float of continuous, integer if discrete
+  
+  drght_one_mon:
+    source_table: drought_one_month_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'outlook'
+    hazard_value_classification: ordinal
+    hazard_values_order: ['No_Drought', 'Removal', 'Improvement', 'Development', 'Persistence']
+    hazard_value_threshold: 'Development' # Must be float of continuous, integer if discrete
+
+  drght_seas:
+    source_table: drought_seasonal_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'outlook'
+    hazard_value_classification: ordinal
+    hazard_values_order: ['No_Drought', 'Removal', 'Improvement', 'Development', 'Persistence']
+    hazard_value_threshold: 'Development' # Must be float of continuous, integer if discrete
+
+  drght_mon_hist:
+    source_table: drought_future_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'historical'
+    hazard_value_classification: discrete
+    hazard_values_order: '>='
+    hazard_value_threshold: 58 # Must be float of continuous, integer if discrete
+  drght_mon_ssp245_204:
+    source_table: drought_future_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'ssp245_204'
+    hazard_value_classification: discrete
+    hazard_values_order: '>='
+    hazard_value_threshold: 58 # Must be float of continuous, integer if discrete
+  drght_mon_ssp245_208:
+    source_table: drought_future_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'ssp245_208'
+    hazard_value_classification: discrete
+    hazard_values_order: '>='
+    hazard_value_threshold: 58 # Must be float of continuous, integer if discrete
+  drght_mon_ssp585_204:
+    source_table: drought_future_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'ssp585_204'
+    hazard_value_classification: discrete
+    hazard_values_order: '>='
+    hazard_value_threshold: 58 # Must be float of continuous, integer if discrete
+  drght_mon_ssp585_208:
+    source_table: drought_future_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'ssp585_208'
+    hazard_value_classification: discrete
+    hazard_values_order: '>='
+    hazard_value_threshold: 58 # Must be float of continuous, integer if discrete
+
+  wildfire_hist:
+    source_table: wildfire_percent_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'hist_1994_'
+    hazard_value_classification: continuous
+    hazard_values_order: '>='
+    hazard_value_threshold: 0.061 # Must be float of continuous, integer if discrete
+  wildfire_rcp45_2040:
+    source_table: wildfire_percent_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'rcp45_2040'
+    hazard_value_classification: continuous
+    hazard_values_order: '>='
+    hazard_value_threshold: 0.061 # Must be float of continuous, integer if discrete
+  wildfire_rcp45_2080:
+    source_table: wildfire_percent_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'rcp45_2080'
+    hazard_value_classification: continuous
+    hazard_values_order: '>='
+    hazard_value_threshold: 0.061 # Must be float of continuous, integer if discrete
+  wildfire_rcp85_2040:
+    source_table: wildfire_percent_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'rcp85_2040'
+    hazard_value_classification: continuous
+    hazard_values_order: '>='
+    hazard_value_threshold: 0.061 # Must be float of continuous, integer if discrete
+  wildfire_rcp85_2080:
+    source_table: wildfire_percent_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'rcp85_2080'
+    hazard_value_classification: continuous
+    hazard_values_order: '>='
+    hazard_value_threshold: 0.061 # Must be float of continuous, integer if discrete
+
+  fema_nfhl:
+    source_table: fema_nfhl_prepared
+    source_geom_column: 'geometry_transformed' # Must be the geometry column created when preparing the source table
+    hazard_field: 'esri_symbology'
+    hazard_value_classification: nominal
+    hazard_values_order: 
+    - '0.2% Annual Chance Flood Hazard'
+    - '1% Annual Chance Flood Hazard'
+    - 'Area with Reduced Risk Due to Levee'
+    - 'Future Conditions 1% Annual Chance Flood Hazard'
+    - 'Regulatory Floodway'
+    - 'Special Floodway'
+    hazard_value_threshold: 
+    - '0.2% Annual Chance Flood Hazard'
+    - '1% Annual Chance Flood Hazard'
+    - 'Area with Reduced Risk Due to Levee'
+    - 'Future Conditions 1% Annual Chance Flood Hazard'
+    - 'Regulatory Floodway'
+    - 'Special Floodway'

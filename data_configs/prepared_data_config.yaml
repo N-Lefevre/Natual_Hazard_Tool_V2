@@ -1,0 +1,204 @@
+rcra_handlers_prepared: >
+    DROP TABLE IF EXISTS rcra_handlers_prepared;
+
+    CREATE TABLE rcra_handlers_prepared AS
+    SELECT *, ST_Transform(geometry, 5070)::geometry(Point, 5070) AS geometry_transformed
+    FROM rcra_handlers_source;
+
+    UPDATE rcra_handlers_prepared
+    SET geometry_transformed = ST_MakeValid(geometry_transformed)
+    WHERE NOT ST_IsValid(geometry_transformed);
+
+pcb_facilities_prepared: >
+    DROP TABLE IF EXISTS pcb_facilities_prepared;
+
+    CREATE TABLE pcb_facilities_prepared AS
+    SELECT *, ST_Transform(geometry, 5070)::geometry(Point, 5070) AS geometry_transformed
+    FROM pcb_facilities_source;
+
+    UPDATE pcb_facilities_prepared
+    SET geometry_transformed = ST_MakeValid(geometry_transformed)
+    WHERE NOT ST_IsValid(geometry_transformed);
+
+heavy_precipitation_prepared: >
+    DROP TABLE IF EXISTS heavy_precipitation_prepared;
+
+    CREATE TABLE heavy_precipitation_prepared AS
+    SELECT *, ST_Transform(geometry, 5070)::geometry(MULTIPOLYGON, 5070) AS geometry_transformed
+    FROM heavy_precipitation_source;
+
+    ALTER TABLE heavy_precipitation_prepared
+    DROP COLUMN geometry;
+
+    CREATE INDEX idx_heavy_precipitation_prepared_geometry_transformed
+    ON heavy_precipitation_prepared
+    USING GIST (geometry_transformed);
+
+hand_prepared: >
+    DROP TABLE IF EXISTS hand_prepared;
+
+    CREATE TABLE hand_prepared AS
+    SELECT *, ST_Transform(geometry, 5070)::geometry(MULTIPOLYGON, 5070) AS geometry_transformed
+    FROM hand_source;
+
+    ALTER TABLE hand_prepared
+    DROP COLUMN geometry;
+
+    CREATE INDEX idx_hand_prepared_geometry_transformed
+    ON hand_prepared
+    USING GIST (geometry_transformed);
+
+max_summer_temp_prepared: >
+    DROP TABLE IF EXISTS max_summer_temp_prepared;
+
+    CREATE TABLE max_summer_temp_prepared AS
+    SELECT *, ST_Transform(geometry, 5070)::geometry(MULTIPOLYGON, 5070) AS geometry_transformed
+    FROM max_summer_temp_source;
+
+    UPDATE max_summer_temp_prepared
+    SET geometry_transformed = ST_Buffer(geometry_transformed, 0, 'quad_segs=5')
+    WHERE NOT ST_IsValid(geometry_transformed);
+
+    ALTER TABLE max_summer_temp_prepared
+    DROP COLUMN geometry;
+
+    CREATE INDEX idx_max_summer_temp_prepared_geometry_transformed
+    ON max_summer_temp_prepared
+    USING GIST (geometry_transformed);
+
+drought_one_month_prepared: >
+    DROP TABLE IF EXISTS drought_one_month_prepared;
+
+    CREATE TABLE drought_one_month_prepared AS
+    SELECT *, ST_Transform(geometry, 5070)::geometry(MULTIPOLYGON, 5070) AS geometry_transformed
+    FROM drought_one_month_source;
+
+    UPDATE drought_one_month_prepared
+    SET geometry_transformed = ST_Buffer(geometry_transformed, 0, 'quad_segs=5')
+    WHERE NOT ST_IsValid(geometry_transformed);
+
+    ALTER TABLE drought_one_month_prepared
+    DROP COLUMN geometry;
+
+    CREATE INDEX idx_drought_one_month_prepared_geometry_transformed
+    ON drought_one_month_prepared
+    USING GIST (geometry_transformed);
+
+drought_seasonal_prepared: >
+    DROP TABLE IF EXISTS drought_seasonal_prepared;
+
+    CREATE TABLE drought_seasonal_prepared AS
+    SELECT *, ST_Transform(geometry, 5070)::geometry(MULTIPOLYGON, 5070) AS geometry_transformed
+    FROM drought_seasonal_source;
+
+    UPDATE drought_seasonal_prepared
+    SET geometry_transformed = ST_Buffer(geometry_transformed, 0, 'quad_segs=5')
+    WHERE NOT ST_IsValid(geometry_transformed);
+
+    ALTER TABLE drought_seasonal_prepared
+    DROP COLUMN geometry;
+
+    CREATE INDEX idx_drought_seasonal_prepared_geometry_transformed
+    ON drought_seasonal_prepared
+    USING GIST (geometry_transformed);
+
+drought_future_prepared: >
+    DROP TABLE IF EXISTS drought_future_prepared;
+
+    CREATE TABLE drought_future_prepared AS
+    SELECT *, ST_Transform(geometry, 5070)::geometry(MULTIPOLYGON, 5070) AS geometry_transformed
+    FROM drought_future_source;
+
+    UPDATE drought_future_prepared
+    SET geometry_transformed = ST_Buffer(geometry_transformed, 0, 'quad_segs=5')
+    WHERE NOT ST_IsValid(geometry_transformed);
+
+    ALTER TABLE drought_future_prepared
+    DROP COLUMN geometry;
+
+    CREATE INDEX idx_drought_future_prepared_geometry_transformed
+    ON drought_future_prepared
+    USING GIST (geometry_transformed);
+
+wildfire_percent_prepared: >
+    DROP TABLE IF EXISTS wildfire_percent_prepared;
+
+    CREATE TABLE wildfire_percent_prepared AS
+    SELECT *, ST_Transform(geometry, 5070)::geometry(MULTIPOLYGON, 5070) AS geometry_transformed
+    FROM wildfire_percent_source;
+
+    UPDATE wildfire_percent_prepared
+    SET geometry_transformed = ST_Buffer(geometry_transformed, 0, 'quad_segs=5')
+    WHERE NOT ST_IsValid(geometry_transformed);
+
+    ALTER TABLE wildfire_percent_prepared
+    DROP COLUMN geometry;
+
+    CREATE INDEX idx_wildfire_percent_prepared_geometry_transformed
+    ON wildfire_percent_prepared
+    USING GIST (geometry_transformed);
+
+# fema_nfhl_prepared: >
+#     DROP TABLE IF EXISTS fema_nfhl_prepared;
+
+#     CREATE TABLE fema_nfhl_prepared AS
+#     SELECT *, ST_Transform(geometry, 5070)::geometry(MULTIPOLYGON, 5070) AS geometry_transformed
+#     FROM fema_nfhl_source;
+
+#     SELECT *, ST_SimplifyPreserveTopology(ST_Buffer(ST_Buffer(geometry_transformed, 1000, 'quad_segs=2'), -900, 'quad_segs=1'), 125) AS geom_buffer_simplify
+#     FROM fema_nfhl_prepared;
+
+#     DROP TABLE IF EXISTS fema_nfhl_union;
+#     CREATE TABLE fema_nfhl_union AS
+#     SELECT esri_symbology, ST_Union(geom_buffer_simplify) AS geom_union
+#     FROM fema_nfhl_prepared
+#     GROUP BY esri_symbology;
+
+#     DROP TABLE fema_nfhl_prepared;
+
+#     ALTER TABLE fema_nfhl_union RENAME TO fema_nfhl_prepared;
+
+# fema_nfhl_prepared: >
+#     DROP TABLE IF EXISTS fema_nfhl_prepared;
+
+#     CREATE TABLE fema_nfhl_prepared AS
+#     WITH fema_nfhl_transformed AS (
+#         SELECT esri_symbology, ST_Transform(geometry, 5070)::geometry(MULTIPOLYGON, 5070) AS geometry_transformed
+#         FROM fema_nfhl_source
+#     ), fema_nfhl_buffered AS (
+#         SELECT esri_symbology, ST_SimplifyPreserveTopology(ST_Buffer(ST_Buffer(geometry_transformed, 1000, 'quad_segs=2'), -900, 'quad_segs=1'), 125) AS geom_buffer_simplify
+#         FROM fema_nfhl_transformed
+#     ), fema_nfhl_merged AS (
+#         SELECT esri_symbology, ST_Union(geom_buffer_simplify) AS geom_merged
+#         FROM fema_nfhl_buffered
+#         GROUP BY esri_symbology
+#     ), fema_nfhl_subdivided AS (
+#         SELECT esri_symbology, (ST_Dump(ST_Subdivide(geom_merged, 50))).geom AS geom_prepared
+#         FROM fema_nfhl_merged
+#     )
+
+# fema_nfhl_prepared: >
+#     DROP TABLE IF EXISTS fema_nfhl_prepared;
+
+#     CREATE TABLE fema_nfhl_prepared AS
+#     SELECT esri_symbology, (ST_Dump(ST_Subdivide(ST_Union(ST_SimplifyPreserveTopology(ST_Buffer(ST_Buffer(ST_Transform(geometry, 5070), 1000, 'quad_segs=3'), -900, 'quad_segs=3'), 125)), 100))).geom::geometry(MULTIPOLYGON, 5070) AS geometry_transformed
+#     FROM fema_nfhl_source
+#     GROUP BY esri_symbology;
+
+#     ALTER TABLE fema_nfhl_prepared ADD COLUMN id SERIAL PRIMARY KEY;
+
+#      DROP INDEX IF EXISTS fema_nfhl_prepared_geom_idx;
+#     CREATE INDEX fema_nfhl_prepared_geom_idx ON fema_nfhl_prepared USING GIST (geometry_transformed);
+
+fema_nfhl_prepared: >
+    DROP TABLE IF EXISTS fema_nfhl_prepared;
+
+    CREATE TABLE fema_nfhl_prepared AS
+    SELECT esri_symbology, (ST_Dump(ST_Subdivide(ST_Union(ST_SimplifyPreserveTopology(ST_Buffer(ST_Buffer(ST_Transform(geometry, 5070), 100, 'quad_segs=8'), -95, 'quad_segs=8'), .1)), 10000))).geom::geometry(MULTIPOLYGON, 5070) AS geometry_transformed
+    FROM fema_nfhl_source
+    GROUP BY esri_symbology;
+
+    ALTER TABLE fema_nfhl_prepared ADD COLUMN id SERIAL PRIMARY KEY;
+
+    DROP INDEX IF EXISTS fema_nfhl_prepared_geom_idx;
+    CREATE INDEX fema_nfhl_prepared_geom_idx ON fema_nfhl_prepared USING GIST (geometry_transformed);

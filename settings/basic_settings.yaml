@@ -1,0 +1,42 @@
+# Placeholder for basic settings
+
+# Primaty data to collect from the primary data configuration file
+# To collect no sources, leave empty
+# To collect all sources, have 'collect_all' in the list
+sources_to_collect:
+  #- 'collect_all'
+  - 'pcb_facilities'
+  # - drought_one_month
+  # - ' dufhsieuft'
+
+# Data to prepare from the prepared data configuration file
+# To prepare no data, leave empty
+# To prepare all data, have 'prepare_all' in the list
+data_to_prepare:
+  #- 'prepare_all'
+  - 'pcb_facilities_prepared'
+  - 'drought_one_month_prepared'
+  - 'dfeliuhlsfe'
+
+# Intersections tables to create/update, and with which hazards. 
+# If update is True, the table will be wiped, and updated with the current prepeared sites data. If False, the intersections will be run with the current sites in the intersection table.
+# If hazards is empty, all hazards will be used for the intersection.
+tables_to_intersect:
+  pcb_facilities_intersections:
+    update_source: True
+    hazards:
+      #- all_hazards
+      - drght_one_mon
+  rcra_handlers_intersections:
+    update_source: True
+    hazards:
+      - drght_one_mon
+
+# Tables to publish
+# If rebuild is True, the table will be rebuilt from the current intersection data. If False, the current publishing table will be used.
+tables_to_publish:
+  pcb_facilities_intersections_publish:
+    rebuild: True
+  rcra_sites_intersections_publish:
+    rebuild: True
+  

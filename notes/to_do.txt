@@ -1,0 +1,20 @@
+To Do
+- create feature to log into agol and get token
+- use agol token to access feature layers not published publically
+- buffer 0 after downloading source layer
+- have hazards be in their own tables, then join just the designated columns to the final publishing table
+- have yamal data instead of paths sent to classes
+- ensure tables have most efficient data types
+- change wildfire theshold
+- clean up log
+
+New Features:
+- Validate configuration and settings files
+- clean logging
+- change climate to natural
+
+Bugs:
+- bug: slightly more features are in the publish table vs the intersections table
+
+Priority:
+- Utilize output folder

@@ -1,0 +1,903 @@
+25-05-28 11:07:31 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:08:08 - __main__ - INFO - Attempting to connect to database...
+|
+25-05-28 11:22:22 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:22:22 - __main__ - INFO - Attempting to connect to database...
+|
+25-05-28 11:22:22 - __main__ - INFO - Database connection successful
+25-05-28 11:22:22 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:29:06 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:29:06 - __main__ - INFO - Attempting to connect to database...
+|
+25-05-28 11:29:06 - __main__ - INFO - Database connection successful
+25-05-28 11:29:06 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:29:17 - __main__ - INFO - Attempting to collect primary data sources...
+|
+25-05-28 11:29:17 - modules.data_management.data_managers.data_source_manager - INFO - Collecting primary source(s): pcb_facilities
+25-05-28 11:29:17 - modules.data_management.data_managers.data_source_manager - INFO - Attempting to collect data for: pcb_facilities
+25-05-28 11:29:18 - modules.infrastructure.other_ops.arcgis_operations - INFO - Progress: 0% complete.
+25-05-28 11:29:25 - modules.infrastructure.other_ops.arcgis_operations - INFO - Progress: 100.0% complete.
+25-05-28 11:29:25 - modules.data_management.data_managers.data_source_manager - INFO - Data collection successful for: pcb_facilities
+25-05-28 11:29:25 - __main__ - INFO - Primary data collection complete
+25-05-28 11:29:25 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:30:52 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:30:52 - __main__ - INFO - Attempting to connect to database...
+|
+25-05-28 11:30:52 - __main__ - INFO - Database connection successful
+25-05-28 11:30:52 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:30:52 - __main__ - INFO - Attempting to collect primary data sources...
+|
+25-05-28 11:30:52 - modules.data_management.data_managers.data_source_manager - INFO - Collecting primary source(s): pcb_facilities, drought_one_month
+25-05-28 11:30:52 - modules.data_management.data_managers.data_source_manager - INFO - Attempting to collect data for: pcb_facilities
+25-05-28 11:30:53 - modules.infrastructure.other_ops.arcgis_operations - INFO - Progress: 0% complete.
+25-05-28 11:31:00 - modules.infrastructure.other_ops.arcgis_operations - INFO - Progress: 100.0% complete.
+25-05-28 11:31:00 - modules.data_management.data_managers.data_source_manager - INFO - Data collection successful for: pcb_facilities
+25-05-28 11:31:00 - modules.data_management.data_managers.data_source_manager - INFO - Attempting to collect data for: drought_one_month
+25-05-28 11:31:00 - modules.infrastructure.other_ops.arcgis_operations - INFO - Progress: 0% complete.
+25-05-28 11:31:07 - modules.infrastructure.other_ops.arcgis_operations - INFO - Progress: 100.0% complete.
+25-05-28 11:31:07 - modules.data_management.data_managers.data_source_manager - INFO - Data collection successful for: drought_one_month
+25-05-28 11:31:07 - __main__ - INFO - Primary data collection complete
+25-05-28 11:31:07 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:47:25 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:47:25 - __main__ - INFO - Attempting to connect to database...
+|
+25-05-28 11:47:25 - __main__ - INFO - Database connection successful
+25-05-28 11:47:25 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:47:25 - __main__ - INFO - Attempting to collect primary data sources...
+|
+25-05-28 11:47:25 - modules.data_management.data_managers.data_source_manager - INFO - No primary sources specified for collection.
+25-05-28 11:47:25 - __main__ - INFO - Primary data collection complete
+25-05-28 11:47:25 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:47:28 - __main__ - INFO - Attempting prepare primary data sources for further processing...
+
+25-05-28 11:47:28 - modules.data_management.data_managers.data_processing_manager - INFO - Creating processed sources
+25-05-28 11:47:28 - __main__ - INFO - Data preparing complete
+25-05-28 11:47:28 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:49:29 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:49:29 - __main__ - INFO - Attempting to connect to database...
+|
+25-05-28 11:49:29 - __main__ - INFO - Database connection successful
+25-05-28 11:49:29 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:49:29 - __main__ - INFO - Attempting to collect primary data sources...
+|
+25-05-28 11:49:30 - modules.data_management.data_managers.data_source_manager - INFO - No primary sources specified for collection.
+25-05-28 11:49:30 - __main__ - INFO - Primary data collection complete
+25-05-28 11:49:30 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 11:49:30 - __main__ - INFO - Attempting prepare primary data sources for further processing...
+
+25-05-28 11:49:30 - modules.data_management.data_managers.data_processing_manager - INFO - Creating processed sources
+25-05-28 12:10:32 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:10:32 - __main__ - INFO - Attempting to connect to database...
+|
+25-05-28 12:10:32 - __main__ - INFO - Database connection successful
+25-05-28 12:10:32 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:10:32 - __main__ - INFO - Attempting to collect primary data sources...
+|
+25-05-28 12:10:32 - modules.data_management.data_managers.data_source_manager - INFO - No primary sources specified for collection.
+25-05-28 12:10:32 - __main__ - INFO - Primary data collection complete
+25-05-28 12:10:32 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:10:32 - __main__ - INFO - Attempting prepare primary data sources for further processing...
+
+25-05-28 12:10:32 - modules.data_management.data_managers.data_processing_manager - INFO - Creating processed sources
+25-05-28 12:10:32 - modules.data_management.data_managers.data_processing_manager - INFO - Preparing the following data: ['pcb_facilities_prepared']
+25-05-28 12:10:32 - modules.data_management.data_managers.data_processing_manager - ERROR - Failed to prepare data: pcb_facilities_prepared
+25-05-28 12:10:32 - __main__ - INFO - Data preparing complete
+25-05-28 12:10:32 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:11:43 - __main__ - DEBUG - Logger initialized successfully
+25-05-28 12:11:43 - __main__ - DEBUG - Attempting to load settings...
+25-05-28 12:11:43 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at settings\basic_settings.yaml
+25-05-28 12:11:43 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at settings\basic_settings.yaml opened and parsed successfully
+25-05-28 12:11:43 - modules.infrastructure.program_support.settings_config - DEBUG - Basic settings loaded successfully
+25-05-28 12:11:43 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at settings\advanced_settings.yaml
+25-05-28 12:11:43 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at settings\advanced_settings.yaml opened and parsed successfully
+25-05-28 12:11:43 - modules.infrastructure.program_support.settings_config - DEBUG - Advanced settings loaded successfully
+25-05-28 12:11:43 - __main__ - DEBUG - Settings loaded successfully
+25-05-28 12:11:43 - __main__ - DEBUG - Attempting to run startup tasks...
+25-05-28 12:11:43 - modules.infrastructure.program_support.startup_config - DEBUG - Startup initialized.
+25-05-28 12:11:43 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/epa_logo_ascii.txt
+25-05-28 12:11:43 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/epa_logo_ascii.txt opened and parsed successfully
+25-05-28 12:11:43 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed EPA ASCII art from: resources/epa_logo_ascii.txt
+25-05-28 12:11:43 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/program_info.txt
+25-05-28 12:11:43 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/program_info.txt opened and parsed successfully
+25-05-28 12:11:43 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed Program info from: resources/program_info.txt
+25-05-28 12:11:43 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/startup_instructions.txt
+25-05-28 12:11:43 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/startup_instructions.txt opened and parsed successfully
+25-05-28 12:11:43 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed Instructions file from: resources/startup_instructions.txt
+25-05-28 12:11:43 - modules.infrastructure.program_support.startup_config - DEBUG - Startup information displayed successfully.
+25-05-28 12:11:43 - __main__ - DEBUG - Startup tasks completed successfully
+25-05-28 12:11:43 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:11:43 - __main__ - INFO - Attempting to connect to database...
+|
+25-05-28 12:11:43 - modules.data_management.sql_utils.sql_ops - DEBUG - Engine created
+25-05-28 12:11:43 - modules.data_management.sql_utils.sql_ops - DEBUG - PostGIS version: ('3.5 USE_GEOS=1 USE_PROJ=1 USE_STATS=1',)
+25-05-28 12:11:43 - __main__ - INFO - Database connection successful
+25-05-28 12:11:43 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:11:43 - __main__ - INFO - Attempting to collect primary data sources...
+|
+25-05-28 12:11:43 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at data_configs\source_data_config.yaml
+25-05-28 12:11:43 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at data_configs\source_data_config.yaml opened and parsed successfully
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - Source configurations loaded successfully from data_configs\source_data_config.yaml.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'rcra_handlers'.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'rcra_handlers' initialized successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'rcra_handlers' created successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'pcb_facilities'.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'pcb_facilities' initialized successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'pcb_facilities' created successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'heavy_precipitation'.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'heavy_precipitation' initialized successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'heavy_precipitation' created successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'hand'.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'hand' initialized successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'hand' created successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'max_summer_temp'.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'max_summer_temp' initialized successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'max_summer_temp' created successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_one_month'.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_one_month' initialized successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_one_month' created successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_seasonal'.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_seasonal' initialized successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_seasonal' created successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_future'.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_future' initialized successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_future' created successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'wildfire_percent'.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'wildfire_percent' initialized successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'wildfire_percent' created successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'fema_nfhl'.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'fema_nfhl' initialized successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'fema_nfhl' created successfully.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSourceManager initialization complete.
+25-05-28 12:11:43 - modules.data_management.data_managers.data_source_manager - INFO - No primary sources specified for collection.
+25-05-28 12:11:43 - __main__ - INFO - Primary data collection complete
+25-05-28 12:11:43 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:11:43 - __main__ - INFO - Attempting prepare primary data sources for further processing...
+
+25-05-28 12:11:43 - modules.data_management.data_managers.data_processing_manager - DEBUG - Loading processing configurations from data_configs\prepared_data_config.yaml
+25-05-28 12:11:43 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at data_configs\prepared_data_config.yaml
+25-05-28 12:11:43 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at data_configs\prepared_data_config.yaml opened and parsed successfully
+25-05-28 12:11:43 - modules.data_management.data_managers.data_processing_manager - INFO - Creating processed sources
+25-05-28 12:11:43 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for rcra_handlers_prepared
+25-05-28 12:11:43 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for pcb_facilities_prepared
+25-05-28 12:11:43 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for heavy_precipitation_prepared
+25-05-28 12:11:43 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for hand_prepared
+25-05-28 12:11:43 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for max_summer_temp_prepared
+25-05-28 12:11:43 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_one_month_prepared
+25-05-28 12:11:43 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_seasonal_prepared
+25-05-28 12:11:43 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_future_prepared
+25-05-28 12:11:43 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for wildfire_percent_prepared
+25-05-28 12:11:43 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for fema_nfhl_prepared
+25-05-28 12:11:43 - modules.data_management.data_managers.data_processing_manager - INFO - Preparing the following data: ['pcb_facilities_prepared']
+25-05-28 12:12:10 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: DROP TABLE IF EXISTS pcb_facilities_prepared;
+25-05-28 12:12:14 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: CREATE TABLE pcb_facilities_prepared AS SELECT *, ST_Transform(geometry, 5070)::geometry(Point, 5070) AS geometry_transformed FROM pcb_facilities_source;
+25-05-28 12:12:17 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: UPDATE pcb_facilities_prepared SET geometry_transformed = ST_MakeValid(geometry_transformed) WHERE NOT ST_IsValid(geometry_transformed);
+25-05-28 12:15:56 - __main__ - DEBUG - Logger initialized successfully
+25-05-28 12:15:56 - __main__ - DEBUG - Attempting to load settings...
+25-05-28 12:15:56 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at settings\basic_settings.yaml
+25-05-28 12:15:56 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at settings\basic_settings.yaml opened and parsed successfully
+25-05-28 12:15:56 - modules.infrastructure.program_support.settings_config - DEBUG - Basic settings loaded successfully
+25-05-28 12:15:56 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at settings\advanced_settings.yaml
+25-05-28 12:15:56 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at settings\advanced_settings.yaml opened and parsed successfully
+25-05-28 12:15:56 - modules.infrastructure.program_support.settings_config - DEBUG - Advanced settings loaded successfully
+25-05-28 12:15:56 - __main__ - DEBUG - Settings loaded successfully
+25-05-28 12:15:56 - __main__ - DEBUG - Attempting to run startup tasks...
+25-05-28 12:15:56 - modules.infrastructure.program_support.startup_config - DEBUG - Startup initialized.
+25-05-28 12:15:56 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/epa_logo_ascii.txt
+25-05-28 12:15:56 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/epa_logo_ascii.txt opened and parsed successfully
+25-05-28 12:15:56 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed EPA ASCII art from: resources/epa_logo_ascii.txt
+25-05-28 12:15:56 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/program_info.txt
+25-05-28 12:15:56 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/program_info.txt opened and parsed successfully
+25-05-28 12:15:56 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed Program info from: resources/program_info.txt
+25-05-28 12:15:56 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/startup_instructions.txt
+25-05-28 12:15:56 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/startup_instructions.txt opened and parsed successfully
+25-05-28 12:15:56 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed Instructions file from: resources/startup_instructions.txt
+25-05-28 12:15:56 - modules.infrastructure.program_support.startup_config - DEBUG - Startup information displayed successfully.
+25-05-28 12:15:56 - __main__ - DEBUG - Startup tasks completed successfully
+25-05-28 12:15:56 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:15:57 - __main__ - INFO - Attempting to connect to database...
+|
+25-05-28 12:15:57 - modules.data_management.sql_utils.sql_ops - DEBUG - Engine created
+25-05-28 12:15:57 - modules.data_management.sql_utils.sql_ops - DEBUG - PostGIS version: ('3.5 USE_GEOS=1 USE_PROJ=1 USE_STATS=1',)
+25-05-28 12:15:57 - __main__ - INFO - Database connection successful
+25-05-28 12:15:57 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:15:57 - __main__ - INFO - Attempting to collect primary data sources...
+|
+25-05-28 12:15:57 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at data_configs\source_data_config.yaml
+25-05-28 12:15:57 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at data_configs\source_data_config.yaml opened and parsed successfully
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - Source configurations loaded successfully from data_configs\source_data_config.yaml.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'rcra_handlers'.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'rcra_handlers' initialized successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'rcra_handlers' created successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'pcb_facilities'.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'pcb_facilities' initialized successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'pcb_facilities' created successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'heavy_precipitation'.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'heavy_precipitation' initialized successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'heavy_precipitation' created successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'hand'.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'hand' initialized successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'hand' created successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'max_summer_temp'.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'max_summer_temp' initialized successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'max_summer_temp' created successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_one_month'.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_one_month' initialized successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_one_month' created successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_seasonal'.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_seasonal' initialized successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_seasonal' created successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_future'.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_future' initialized successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_future' created successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'wildfire_percent'.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'wildfire_percent' initialized successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'wildfire_percent' created successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'fema_nfhl'.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'fema_nfhl' initialized successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'fema_nfhl' created successfully.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSourceManager initialization complete.
+25-05-28 12:15:57 - modules.data_management.data_managers.data_source_manager - INFO - No primary sources specified for collection.
+25-05-28 12:15:57 - __main__ - INFO - Primary data collection complete
+25-05-28 12:15:57 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:15:57 - __main__ - INFO - Attempting prepare primary data sources for further processing...
+
+25-05-28 12:15:57 - modules.data_management.data_managers.data_processing_manager - DEBUG - Loading processing configurations from data_configs\prepared_data_config.yaml
+25-05-28 12:15:57 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at data_configs\prepared_data_config.yaml
+25-05-28 12:15:57 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at data_configs\prepared_data_config.yaml opened and parsed successfully
+25-05-28 12:15:57 - modules.data_management.data_managers.data_processing_manager - INFO - Creating processed sources
+25-05-28 12:15:57 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for rcra_handlers_prepared
+25-05-28 12:15:57 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for pcb_facilities_prepared
+25-05-28 12:15:57 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for heavy_precipitation_prepared
+25-05-28 12:15:57 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for hand_prepared
+25-05-28 12:15:57 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for max_summer_temp_prepared
+25-05-28 12:15:57 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_one_month_prepared
+25-05-28 12:15:57 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_seasonal_prepared
+25-05-28 12:15:57 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_future_prepared
+25-05-28 12:15:57 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for wildfire_percent_prepared
+25-05-28 12:15:57 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for fema_nfhl_prepared
+25-05-28 12:15:57 - modules.data_management.data_managers.data_processing_manager - INFO - Preparing the following data: ['pcb_facilities_prepared']
+25-05-28 12:16:07 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: DROP TABLE IF EXISTS pcb_facilities_prepared;
+25-05-28 12:16:07 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: CREATE TABLE pcb_facilities_prepared AS SELECT *, ST_Transform(geometry, 5070)::geometry(Point, 5070) AS geometry_transformed FROM pcb_facilities_source;
+25-05-28 12:16:07 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: UPDATE pcb_facilities_prepared SET geometry_transformed = ST_MakeValid(geometry_transformed) WHERE NOT ST_IsValid(geometry_transformed);
+25-05-28 12:16:07 - modules.data_management.data_managers.data_processing_manager - INFO - Prepared data successfully: pcb_facilities_prepared
+25-05-28 12:16:07 - __main__ - INFO - Data preparing complete
+25-05-28 12:16:07 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:16:51 - __main__ - DEBUG - Logger initialized successfully
+25-05-28 12:16:51 - __main__ - DEBUG - Attempting to load settings...
+25-05-28 12:16:51 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at settings\basic_settings.yaml
+25-05-28 12:16:51 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at settings\basic_settings.yaml opened and parsed successfully
+25-05-28 12:16:51 - modules.infrastructure.program_support.settings_config - DEBUG - Basic settings loaded successfully
+25-05-28 12:16:51 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at settings\advanced_settings.yaml
+25-05-28 12:16:51 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at settings\advanced_settings.yaml opened and parsed successfully
+25-05-28 12:16:51 - modules.infrastructure.program_support.settings_config - DEBUG - Advanced settings loaded successfully
+25-05-28 12:16:51 - __main__ - DEBUG - Settings loaded successfully
+25-05-28 12:16:51 - __main__ - DEBUG - Attempting to run startup tasks...
+25-05-28 12:16:51 - modules.infrastructure.program_support.startup_config - DEBUG - Startup initialized.
+25-05-28 12:16:51 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/epa_logo_ascii.txt
+25-05-28 12:16:51 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/epa_logo_ascii.txt opened and parsed successfully
+25-05-28 12:16:51 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed EPA ASCII art from: resources/epa_logo_ascii.txt
+25-05-28 12:16:51 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/program_info.txt
+25-05-28 12:16:51 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/program_info.txt opened and parsed successfully
+25-05-28 12:16:51 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed Program info from: resources/program_info.txt
+25-05-28 12:16:51 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/startup_instructions.txt
+25-05-28 12:16:51 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/startup_instructions.txt opened and parsed successfully
+25-05-28 12:16:51 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed Instructions file from: resources/startup_instructions.txt
+25-05-28 12:16:51 - modules.infrastructure.program_support.startup_config - DEBUG - Startup information displayed successfully.
+25-05-28 12:16:51 - __main__ - DEBUG - Startup tasks completed successfully
+25-05-28 12:16:51 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:16:51 - __main__ - INFO - Attempting to connect to database...
+|
+25-05-28 12:16:51 - modules.data_management.sql_utils.sql_ops - DEBUG - Engine created
+25-05-28 12:16:51 - modules.data_management.sql_utils.sql_ops - DEBUG - PostGIS version: ('3.5 USE_GEOS=1 USE_PROJ=1 USE_STATS=1',)
+25-05-28 12:16:51 - __main__ - INFO - Database connection successful
+25-05-28 12:16:51 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:16:51 - __main__ - INFO - Attempting to collect primary data sources...
+|
+25-05-28 12:16:51 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at data_configs\source_data_config.yaml
+25-05-28 12:16:51 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at data_configs\source_data_config.yaml opened and parsed successfully
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - Source configurations loaded successfully from data_configs\source_data_config.yaml.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'rcra_handlers'.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'rcra_handlers' initialized successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'rcra_handlers' created successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'pcb_facilities'.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'pcb_facilities' initialized successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'pcb_facilities' created successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'heavy_precipitation'.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'heavy_precipitation' initialized successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'heavy_precipitation' created successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'hand'.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'hand' initialized successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'hand' created successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'max_summer_temp'.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'max_summer_temp' initialized successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'max_summer_temp' created successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_one_month'.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_one_month' initialized successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_one_month' created successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_seasonal'.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_seasonal' initialized successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_seasonal' created successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_future'.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_future' initialized successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_future' created successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'wildfire_percent'.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'wildfire_percent' initialized successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'wildfire_percent' created successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'fema_nfhl'.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'fema_nfhl' initialized successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'fema_nfhl' created successfully.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSourceManager initialization complete.
+25-05-28 12:16:51 - modules.data_management.data_managers.data_source_manager - INFO - No primary sources specified for collection.
+25-05-28 12:16:51 - __main__ - INFO - Primary data collection complete
+25-05-28 12:16:51 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:16:51 - __main__ - INFO - Attempting prepare primary data sources for further processing...
+
+25-05-28 12:16:51 - modules.data_management.data_managers.data_processing_manager - DEBUG - Loading processing configurations from data_configs\prepared_data_config.yaml
+25-05-28 12:16:51 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at data_configs\prepared_data_config.yaml
+25-05-28 12:16:51 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at data_configs\prepared_data_config.yaml opened and parsed successfully
+25-05-28 12:16:51 - modules.data_management.data_managers.data_processing_manager - INFO - Creating processed sources
+25-05-28 12:16:51 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for rcra_handlers_prepared
+25-05-28 12:16:51 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for pcb_facilities_prepared
+25-05-28 12:16:51 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for heavy_precipitation_prepared
+25-05-28 12:16:51 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for hand_prepared
+25-05-28 12:16:51 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for max_summer_temp_prepared
+25-05-28 12:16:51 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_one_month_prepared
+25-05-28 12:16:51 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_seasonal_prepared
+25-05-28 12:16:51 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_future_prepared
+25-05-28 12:16:51 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for wildfire_percent_prepared
+25-05-28 12:16:51 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for fema_nfhl_prepared
+25-05-28 12:16:51 - modules.data_management.data_managers.data_processing_manager - INFO - Preparing the following data: ['pcb_facilities_prepared']
+25-05-28 12:16:56 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: DROP TABLE IF EXISTS pcb_facilities_prepared;
+25-05-28 12:16:56 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: CREATE TABLE pcb_facilities_prepared AS SELECT *, ST_Transform(geometry, 5070)::geometry(Point, 5070) AS geometry_transformed FROM pcb_facilities_source;
+25-05-28 12:16:56 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: UPDATE pcb_facilities_prepared SET geometry_transformed = ST_MakeValid(geometry_transformed) WHERE NOT ST_IsValid(geometry_transformed);
+25-05-28 12:16:56 - modules.data_management.data_managers.data_processing_manager - INFO - Prepared data successfully: pcb_facilities_prepared
+25-05-28 12:16:56 - modules.data_management.data_managers.data_processing_manager - WARNING - Processed data table name dfeliuhlsfe not found in processed sources configuration
+25-05-28 12:16:56 - __main__ - INFO - Data preparing complete
+25-05-28 12:16:56 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:18:08 - __main__ - DEBUG - Logger initialized successfully
+25-05-28 12:18:08 - __main__ - DEBUG - Attempting to load settings...
+25-05-28 12:18:08 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at settings\basic_settings.yaml
+25-05-28 12:18:08 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at settings\basic_settings.yaml opened and parsed successfully
+25-05-28 12:18:08 - modules.infrastructure.program_support.settings_config - DEBUG - Basic settings loaded successfully
+25-05-28 12:18:08 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at settings\advanced_settings.yaml
+25-05-28 12:18:08 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at settings\advanced_settings.yaml opened and parsed successfully
+25-05-28 12:18:08 - modules.infrastructure.program_support.settings_config - DEBUG - Advanced settings loaded successfully
+25-05-28 12:18:08 - __main__ - DEBUG - Settings loaded successfully
+25-05-28 12:18:08 - __main__ - DEBUG - Attempting to run startup tasks...
+25-05-28 12:18:08 - modules.infrastructure.program_support.startup_config - DEBUG - Startup initialized.
+25-05-28 12:18:08 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/epa_logo_ascii.txt
+25-05-28 12:18:08 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/epa_logo_ascii.txt opened and parsed successfully
+25-05-28 12:18:08 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed EPA ASCII art from: resources/epa_logo_ascii.txt
+25-05-28 12:18:08 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/program_info.txt
+25-05-28 12:18:08 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/program_info.txt opened and parsed successfully
+25-05-28 12:18:08 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed Program info from: resources/program_info.txt
+25-05-28 12:18:08 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/startup_instructions.txt
+25-05-28 12:18:08 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/startup_instructions.txt opened and parsed successfully
+25-05-28 12:18:08 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed Instructions file from: resources/startup_instructions.txt
+25-05-28 12:18:08 - modules.infrastructure.program_support.startup_config - DEBUG - Startup information displayed successfully.
+25-05-28 12:18:08 - __main__ - DEBUG - Startup tasks completed successfully
+25-05-28 12:18:08 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:18:08 - __main__ - INFO - Attempting to connect to database...
+|
+25-05-28 12:18:08 - modules.data_management.sql_utils.sql_ops - DEBUG - Engine created
+25-05-28 12:18:08 - modules.data_management.sql_utils.sql_ops - DEBUG - PostGIS version: ('3.5 USE_GEOS=1 USE_PROJ=1 USE_STATS=1',)
+25-05-28 12:18:08 - __main__ - INFO - Database connection successful
+25-05-28 12:18:08 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:18:08 - __main__ - INFO - Attempting to collect primary data sources...
+|
+25-05-28 12:18:08 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at data_configs\source_data_config.yaml
+25-05-28 12:18:08 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at data_configs\source_data_config.yaml opened and parsed successfully
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - Source configurations loaded successfully from data_configs\source_data_config.yaml.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'rcra_handlers'.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'rcra_handlers' initialized successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'rcra_handlers' created successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'pcb_facilities'.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'pcb_facilities' initialized successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'pcb_facilities' created successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'heavy_precipitation'.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'heavy_precipitation' initialized successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'heavy_precipitation' created successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'hand'.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'hand' initialized successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'hand' created successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'max_summer_temp'.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'max_summer_temp' initialized successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'max_summer_temp' created successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_one_month'.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_one_month' initialized successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_one_month' created successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_seasonal'.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_seasonal' initialized successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_seasonal' created successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_future'.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_future' initialized successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_future' created successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'wildfire_percent'.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'wildfire_percent' initialized successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'wildfire_percent' created successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'fema_nfhl'.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'fema_nfhl' initialized successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'fema_nfhl' created successfully.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSourceManager initialization complete.
+25-05-28 12:18:08 - modules.data_management.data_managers.data_source_manager - INFO - No primary sources specified for collection.
+25-05-28 12:18:08 - __main__ - INFO - Primary data collection complete
+25-05-28 12:18:08 - __main__ - INFO - --------------------------------------------------------------------------------
+25-05-28 12:18:08 - __main__ - INFO - Attempting prepare primary data sources for further processing...
+
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - DEBUG - Loading processing configurations from data_configs\prepared_data_config.yaml
+25-05-28 12:18:08 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at data_configs\prepared_data_config.yaml
+25-05-28 12:18:08 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at data_configs\prepared_data_config.yaml opened and parsed successfully
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - INFO - Creating processed sources
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for rcra_handlers_prepared
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for pcb_facilities_prepared
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for heavy_precipitation_prepared
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for hand_prepared
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for max_summer_temp_prepared
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_one_month_prepared
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_seasonal_prepared
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_future_prepared
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for wildfire_percent_prepared
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for fema_nfhl_prepared
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - INFO - Preparing the following data: ['pcb_facilities_prepared']
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: DROP TABLE IF EXISTS pcb_facilities_prepared;
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: CREATE TABLE pcb_facilities_prepared AS SELECT *, ST_Transform(geometry, 5070)::geometry(Point, 5070) AS geometry_transformed FROM pcb_facilities_source;
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: UPDATE pcb_facilities_prepared SET geometry_transformed = ST_MakeValid(geometry_transformed) WHERE NOT ST_IsValid(geometry_transformed);
+25-05-28 12:18:08 - modules.data_management.data_managers.data_processing_manager - INFO - Prepared data successfully: pcb_facilities_prepared
+25-05-29 13:14:09 - modules.infrastructure.program_support.orchestration - DEBUG - Logger initialized successfully
+25-05-29 13:14:09 - modules.infrastructure.program_support.orchestration - DEBUG - Attempting to load settings...
+25-05-29 13:14:09 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at settings\basic_settings.yaml
+25-05-29 13:14:09 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at settings\basic_settings.yaml opened and parsed successfully
+25-05-29 13:14:09 - modules.infrastructure.program_support.settings_config - DEBUG - Basic settings loaded successfully
+25-05-29 13:14:09 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at settings\advanced_settings.yaml
+25-05-29 13:14:09 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at settings\advanced_settings.yaml opened and parsed successfully
+25-05-29 13:14:09 - modules.infrastructure.program_support.settings_config - DEBUG - Advanced settings loaded successfully
+25-05-29 13:14:09 - modules.infrastructure.program_support.orchestration - DEBUG - Settings loaded successfully
+25-05-29 13:14:09 - modules.infrastructure.program_support.orchestration - DEBUG - Attempting to run startup tasks...
+25-05-29 13:14:09 - modules.infrastructure.program_support.startup_config - DEBUG - Startup initialized.
+25-05-29 13:14:09 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/epa_logo_ascii.txt
+25-05-29 13:14:09 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/epa_logo_ascii.txt opened and parsed successfully
+25-05-29 13:14:09 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed EPA ASCII art from: resources/epa_logo_ascii.txt
+25-05-29 13:14:09 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/program_info.txt
+25-05-29 13:14:09 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/program_info.txt opened and parsed successfully
+25-05-29 13:14:09 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed Program info from: resources/program_info.txt
+25-05-29 13:14:09 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open txt file at resources/startup_instructions.txt
+25-05-29 13:14:09 - modules.infrastructure.other_ops.file_operations - DEBUG - txt file at resources/startup_instructions.txt opened and parsed successfully
+25-05-29 13:14:09 - modules.infrastructure.other_ops.user_interface - DEBUG - Successfully displayed Instructions file from: resources/startup_instructions.txt
+25-05-29 13:14:09 - modules.infrastructure.program_support.startup_config - DEBUG - Startup information displayed successfully.
+25-05-29 13:14:09 - modules.infrastructure.program_support.orchestration - DEBUG - Startup tasks completed successfully
+25-05-29 13:14:09 - modules.infrastructure.program_support.orchestration - INFO - --------------------------------------------------------------------------------
+25-05-29 13:14:09 - modules.infrastructure.program_support.orchestration - INFO - Attempting to connect to database...
+|
+25-05-29 13:14:09 - modules.data_management.sql_utils.sql_ops - DEBUG - Engine created
+25-05-29 13:14:09 - modules.data_management.sql_utils.sql_ops - DEBUG - PostGIS version: ('3.5 USE_GEOS=1 USE_PROJ=1 USE_STATS=1',)
+25-05-29 13:14:09 - modules.infrastructure.program_support.orchestration - INFO - Database connection successful
+25-05-29 13:14:09 - modules.infrastructure.program_support.orchestration - INFO - --------------------------------------------------------------------------------
+25-05-29 13:14:09 - modules.infrastructure.program_support.orchestration - INFO - Attempting to collect primary data sources...
+|
+25-05-29 13:14:09 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at data_configs\source_data_config.yaml
+25-05-29 13:14:09 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at data_configs\source_data_config.yaml opened and parsed successfully
+25-05-29 13:14:09 - modules.data_management.data_managers.data_source_manager - DEBUG - Source configurations loaded successfully from data_configs\source_data_config.yaml.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'rcra_handlers'.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'rcra_handlers' initialized successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'rcra_handlers' created successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'pcb_facilities'.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'pcb_facilities' initialized successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'pcb_facilities' created successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'heavy_precipitation'.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'heavy_precipitation' initialized successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'heavy_precipitation' created successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'hand'.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'hand' initialized successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'hand' created successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'max_summer_temp'.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'max_summer_temp' initialized successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'max_summer_temp' created successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_one_month'.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_one_month' initialized successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_one_month' created successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_seasonal'.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_seasonal' initialized successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_seasonal' created successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'drought_future'.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_future' initialized successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'drought_future' created successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'wildfire_percent'.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'wildfire_percent' initialized successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'wildfire_percent' created successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - Collection method 'method_fl_query' initialized successfully for data source 'fema_nfhl'.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'fema_nfhl' initialized successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSource 'fema_nfhl' created successfully.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - DataSourceManager initialization complete.
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - INFO - Collecting primary source(s): pcb_facilities
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - INFO - Attempting to collect data for: pcb_facilities
+25-05-29 13:14:13 - modules.data_management.collection_methods.method_fl_query - DEBUG - Initialized method_fl_query for data source: pcb_facilities
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Table pcb_facilities_source dropped successfully
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Table pcb_facilities_source created successfully
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column REGION to table pcb_facilities_source
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column SITE_ID to table pcb_facilities_source
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column SITE_NAME to table pcb_facilities_source
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column LOCATION_ADDRESS to table pcb_facilities_source
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column LATITUDE to table pcb_facilities_source
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column LONGITUDE to table pcb_facilities_source
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column APPROVAL_STATUS to table pcb_facilities_source
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column APPROVAL_ACTIVITY_TYPE to table pcb_facilities_source
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column APPROVAL_TYPES to table pcb_facilities_source
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column TYPE_OF_PCB_ACTIVITIES to table pcb_facilities_source
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column LOCATION_STATE to table pcb_facilities_source
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column geometry to table pcb_facilities_source
+25-05-29 13:14:13 - modules.data_management.data_managers.data_source_manager - DEBUG - Table 'pcb_facilities_source' updated successfully for data source 'pcb_facilities'.
+25-05-29 13:14:13 - modules.data_management.collection_methods.method_fl_query - DEBUG - Starting data collection for data source: pcb_facilities
+25-05-29 13:14:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): services.arcgis.com:443
+25-05-29 13:14:13 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 86
+25-05-29 13:14:13 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Total expected features: 12129
+25-05-29 13:14:13 - modules.data_management.sql_utils.sql_ops - DEBUG - Cleared table pcb_facilities_source
+25-05-29 13:14:13 - modules.infrastructure.other_ops.arcgis_operations - INFO - Progress: 0% complete.
+25-05-29 13:14:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): services.arcgis.com:443
+25-05-29 13:14:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (3): services.arcgis.com:443
+25-05-29 13:14:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (4): services.arcgis.com:443
+25-05-29 13:14:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (5): services.arcgis.com:443
+25-05-29 13:14:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (6): services.arcgis.com:443
+25-05-29 13:14:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (7): services.arcgis.com:443
+25-05-29 13:14:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (8): services.arcgis.com:443
+25-05-29 13:14:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (9): services.arcgis.com:443
+25-05-29 13:14:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (10): services.arcgis.com:443
+25-05-29 13:14:14 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 13731
+25-05-29 13:14:14 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:14 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:14 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 1/49 processed. Total features received so far: 250/12129
+25-05-29 13:14:14 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 15165
+25-05-29 13:14:14 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:14 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 14400
+25-05-29 13:14:14 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:14 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 15356
+25-05-29 13:14:14 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16838
+25-05-29 13:14:14 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 14493
+25-05-29 13:14:14 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:14 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 14795
+25-05-29 13:14:14 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:14 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 14539
+25-05-29 13:14:14 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 14942
+25-05-29 13:14:14 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:14 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:14 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:14 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:14 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 13587
+25-05-29 13:14:14 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:15 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:15 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 2/49 processed. Total features received so far: 500/12129
+25-05-29 13:14:15 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:15 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 3/49 processed. Total features received so far: 750/12129
+25-05-29 13:14:15 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:15 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 4/49 processed. Total features received so far: 1000/12129
+25-05-29 13:14:15 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:15 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 5/49 processed. Total features received so far: 1250/12129
+25-05-29 13:14:15 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:15 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 6/49 processed. Total features received so far: 1500/12129
+25-05-29 13:14:15 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:15 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 7/49 processed. Total features received so far: 1750/12129
+25-05-29 13:14:15 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:15 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 8/49 processed. Total features received so far: 2000/12129
+25-05-29 13:14:15 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:15 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 9/49 processed. Total features received so far: 2250/12129
+25-05-29 13:14:15 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:15 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 10/49 processed. Total features received so far: 2500/12129
+25-05-29 13:14:16 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16990
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:16 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16560
+25-05-29 13:14:16 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 15661
+25-05-29 13:14:16 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16363
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:16 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16847
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:16 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 17184
+25-05-29 13:14:16 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16717
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:16 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16699
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:16 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16799
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:16 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 17062
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:16 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 11/49 processed. Total features received so far: 2750/12129
+25-05-29 13:14:16 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 12/49 processed. Total features received so far: 3000/12129
+25-05-29 13:14:16 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 13/49 processed. Total features received so far: 3250/12129
+25-05-29 13:14:16 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 14/49 processed. Total features received so far: 3500/12129
+25-05-29 13:14:16 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 15/49 processed. Total features received so far: 3750/12129
+25-05-29 13:14:16 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:16 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 16/49 processed. Total features received so far: 4000/12129
+25-05-29 13:14:17 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 17/49 processed. Total features received so far: 4250/12129
+25-05-29 13:14:17 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 18/49 processed. Total features received so far: 4500/12129
+25-05-29 13:14:17 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 19/49 processed. Total features received so far: 4750/12129
+25-05-29 13:14:17 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 20/49 processed. Total features received so far: 5000/12129
+25-05-29 13:14:17 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 17313
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:17 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 17137
+25-05-29 13:14:17 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16153
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:17 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16462
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:17 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16613
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:17 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 17341
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:17 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 17160
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:17 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16992
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:17 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 17107
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:17 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16473
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:17 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:17 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 21/49 processed. Total features received so far: 5250/12129
+25-05-29 13:14:18 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:18 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 22/49 processed. Total features received so far: 5500/12129
+25-05-29 13:14:18 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:18 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 23/49 processed. Total features received so far: 5750/12129
+25-05-29 13:14:18 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:18 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 24/49 processed. Total features received so far: 6000/12129
+25-05-29 13:14:18 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:18 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 25/49 processed. Total features received so far: 6250/12129
+25-05-29 13:14:18 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:18 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 26/49 processed. Total features received so far: 6500/12129
+25-05-29 13:14:18 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:18 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 27/49 processed. Total features received so far: 6750/12129
+25-05-29 13:14:18 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:18 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 28/49 processed. Total features received so far: 7000/12129
+25-05-29 13:14:18 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:18 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 29/49 processed. Total features received so far: 7250/12129
+25-05-29 13:14:18 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:18 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 30/49 processed. Total features received so far: 7500/12129
+25-05-29 13:14:19 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 17053
+25-05-29 13:14:19 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 17313
+25-05-29 13:14:19 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 15575
+25-05-29 13:14:19 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 15014
+25-05-29 13:14:19 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16871
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:19 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16852
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:19 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 15801
+25-05-29 13:14:19 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16911
+25-05-29 13:14:19 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 15187
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:19 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 15892
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:19 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 31/49 processed. Total features received so far: 7750/12129
+25-05-29 13:14:19 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 32/49 processed. Total features received so far: 8000/12129
+25-05-29 13:14:19 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 33/49 processed. Total features received so far: 8250/12129
+25-05-29 13:14:19 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 34/49 processed. Total features received so far: 8500/12129
+25-05-29 13:14:19 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 35/49 processed. Total features received so far: 8750/12129
+25-05-29 13:14:19 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 36/49 processed. Total features received so far: 9000/12129
+25-05-29 13:14:19 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 37/49 processed. Total features received so far: 9250/12129
+25-05-29 13:14:19 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:19 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 38/49 processed. Total features received so far: 9500/12129
+25-05-29 13:14:20 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 39/49 processed. Total features received so far: 9750/12129
+25-05-29 13:14:20 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 40/49 processed. Total features received so far: 10000/12129
+25-05-29 13:14:20 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 15969
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:20 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16132
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:20 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16361
+25-05-29 13:14:20 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16247
+25-05-29 13:14:20 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 15663
+25-05-29 13:14:20 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16451
+25-05-29 13:14:20 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16376
+25-05-29 13:14:20 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 16266
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 250 features in response
+25-05-29 13:14:20 - urllib3.connectionpool - DEBUG - https://services.arcgis.com:443 "POST /cJ9YHowT8TU7DUyn/ArcGIS/rest/services/RCRA_PCBs/FeatureServer/1/query HTTP/1.1" 200 8472
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Received 129 features in response
+25-05-29 13:14:20 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 41/49 processed. Total features received so far: 10250/12129
+25-05-29 13:14:20 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 42/49 processed. Total features received so far: 10500/12129
+25-05-29 13:14:20 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 43/49 processed. Total features received so far: 10750/12129
+25-05-29 13:14:20 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 44/49 processed. Total features received so far: 11000/12129
+25-05-29 13:14:20 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 45/49 processed. Total features received so far: 11250/12129
+25-05-29 13:14:20 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:20 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 46/49 processed. Total features received so far: 11500/12129
+25-05-29 13:14:21 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:21 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 47/49 processed. Total features received so far: 11750/12129
+25-05-29 13:14:21 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 250 features into table pcb_facilities_source
+25-05-29 13:14:21 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 48/49 processed. Total features received so far: 12000/12129
+25-05-29 13:14:21 - modules.data_management.sql_utils.sql_ops - DEBUG - Inserted 129 features into table pcb_facilities_source
+25-05-29 13:14:21 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Batch 49/49 processed. Total features received so far: 12129/12129
+25-05-29 13:14:21 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Featurelayer data collection completed successfully.
+25-05-29 13:14:21 - modules.infrastructure.other_ops.arcgis_operations - DEBUG - Total features collected: 12129/12129
+25-05-29 13:14:21 - modules.infrastructure.other_ops.arcgis_operations - INFO - Progress: 100.0% complete.
+25-05-29 13:14:21 - modules.data_management.data_managers.data_source_manager - INFO - Data collection successful for: pcb_facilities
+25-05-29 13:14:21 - modules.infrastructure.program_support.orchestration - INFO - Primary data collection complete
+25-05-29 13:14:21 - modules.infrastructure.program_support.orchestration - INFO - --------------------------------------------------------------------------------
+25-05-29 13:14:21 - modules.infrastructure.program_support.orchestration - INFO - Attempting prepare primary data sources for further processing...
+
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Loading processing configurations from data_configs\prepared_data_config.yaml
+25-05-29 13:14:21 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at data_configs\prepared_data_config.yaml
+25-05-29 13:14:21 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at data_configs\prepared_data_config.yaml opened and parsed successfully
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - INFO - Creating processed sources
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for rcra_handlers_prepared
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for pcb_facilities_prepared
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for heavy_precipitation_prepared
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for hand_prepared
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for max_summer_temp_prepared
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_one_month_prepared
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_seasonal_prepared
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for drought_future_prepared
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for wildfire_percent_prepared
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Created PreparedData object for fema_nfhl_prepared
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - INFO - Preparing the following data: ['pcb_facilities_prepared', 'drought_one_month_prepared']
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: DROP TABLE IF EXISTS pcb_facilities_prepared;
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: CREATE TABLE pcb_facilities_prepared AS SELECT *, ST_Transform(geometry, 5070)::geometry(Point, 5070) AS geometry_transformed FROM pcb_facilities_source;
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for pcb_facilities_prepared: UPDATE pcb_facilities_prepared SET geometry_transformed = ST_MakeValid(geometry_transformed) WHERE NOT ST_IsValid(geometry_transformed);
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - INFO - Prepared data successfully: pcb_facilities_prepared
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for drought_one_month_prepared: DROP TABLE IF EXISTS drought_one_month_prepared;
+25-05-29 13:14:21 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for drought_one_month_prepared: CREATE TABLE drought_one_month_prepared AS SELECT *, ST_Transform(geometry, 5070)::geometry(MULTIPOLYGON, 5070) AS geometry_transformed FROM drought_one_month_source;
+25-05-29 13:14:22 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for drought_one_month_prepared: UPDATE drought_one_month_prepared SET geometry_transformed = ST_Buffer(geometry_transformed, 0, 'quad_segs=5') WHERE NOT ST_IsValid(geometry_transformed);
+25-05-29 13:14:25 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for drought_one_month_prepared: ALTER TABLE drought_one_month_prepared DROP COLUMN geometry;
+25-05-29 13:14:25 - modules.data_management.data_managers.data_processing_manager - DEBUG - Executing SQL for drought_one_month_prepared: CREATE INDEX idx_drought_one_month_prepared_geometry_transformed ON drought_one_month_prepared USING GIST (geometry_transformed);
+25-05-29 13:14:25 - modules.data_management.data_managers.data_processing_manager - INFO - Prepared data successfully: drought_one_month_prepared
+25-05-29 13:15:20 - modules.data_management.data_managers.data_processing_manager - WARNING - Processed data table name dfeliuhlsfe not found in processed sources configuration
+25-05-29 13:15:20 - modules.infrastructure.program_support.orchestration - INFO - Data preparing complete
+25-05-29 13:15:20 - modules.infrastructure.program_support.orchestration - INFO - --------------------------------------------------------------------------------
+25-05-29 13:15:20 - modules.infrastructure.program_support.orchestration - INFO - Attempting to build/update and run intersections for specified tables and hazards...
+25-05-29 13:15:20 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at data_configs\intersection_config.yaml
+25-05-29 13:15:20 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at data_configs\intersection_config.yaml opened and parsed successfully
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Intersection configuration loaded successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Intersection table rcra_sites_intersections initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Intersection table pcb_facilities_intersections initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard heavy_precip_hist initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard heavy_precip_ssp245_204 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard heavy_precip_ssp245_208 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard heavy_precip_ssp585_204 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard heavy_precip_ssp585_208 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard hand initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard max_sum_temp_hist initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard max_sum_temp_ssp245_204 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard max_sum_temp_ssp245_208 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard max_sum_temp_ssp585_204 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard max_sum_temp_ssp585_208 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard drght_one_mon initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard drght_seas initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard drght_mon_hist initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard drght_mon_ssp245_204 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard drght_mon_ssp245_208 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard drght_mon_ssp585_204 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard drght_mon_ssp585_208 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard wildfire_hist initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard wildfire_rcp45_2040 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard wildfire_rcp45_2080 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard wildfire_rcp85_2040 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard wildfire_rcp85_2080 initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Hazard fema_nfhl initialized successfully.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Attempting to update source data for intersection table pcb_facilities_intersections.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Retrieved SRID: 5070
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Executing SQL: 
+                DROP TABLE IF EXISTS pcb_facilities_intersections;
+                CREATE TABLE pcb_facilities_intersections AS
+                SELECT SITE_ID, 
+                       ST_Buffer(geometry_transformed, 1000, 'quad_segs=5')::geometry(MULTIPOLYGON, 5070) AS Geom_buff
+                FROM pcb_facilities_prepared;
+
+                CREATE INDEX pcb_facilities_intersections_geom_idx ON pcb_facilities_intersections USING GIST (Geom_buff);
+                
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Source data for intersection table pcb_facilities_intersections has been successfully updated.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - WARNING - Intersection table rcra_handlers_intersections not found in configuration.
+25-05-29 13:15:20 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Attempting to run intersection for pcb_facilities_intersections with hazard drght_one_mon. This may take some time.
+25-05-29 13:15:21 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Updated column drght_one_mon__vals in table pcb_facilities_intersections with intersection results
+25-05-29 13:15:21 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Filtering hazards in table pcb_facilities_intersections for column drght_one_mon__vals.
+25-05-29 13:15:21 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Filtered hazards in table pcb_facilities_intersections for column drght_one_mon__vals.
+25-05-29 13:15:21 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Determining max hazard value in table pcb_facilities_intersections for column drght_one_mon__haz_vals.
+25-05-29 13:15:21 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Determined max hazard value in table pcb_facilities_intersections for column drght_one_mon__haz_vals.
+25-05-29 13:15:21 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Determining max hazard value in table pcb_facilities_intersections for column drght_one_mon__vals.
+25-05-29 13:15:21 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Determined max hazard value in table pcb_facilities_intersections for column drght_one_mon__vals.
+25-05-29 13:15:21 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Building hazard boolean column drght_one_mon__tf in table pcb_facilities_intersections.
+25-05-29 13:15:22 - modules.data_management.data_managers.intersection_tables_manager - DEBUG - Built hazard boolean column drght_one_mon__tf in table pcb_facilities_intersections.
+25-05-29 13:15:22 - modules.data_management.data_managers.intersection_tables_manager - WARNING - Intersection table rcra_handlers_intersections not found in configuration.
+25-05-29 13:15:22 - modules.infrastructure.program_support.orchestration - INFO - Intersection processing complete
+25-05-29 13:15:22 - modules.infrastructure.program_support.orchestration - INFO - --------------------------------------------------------------------------------
+25-05-29 13:15:22 - modules.infrastructure.program_support.orchestration - INFO - Attempting to build and publish tables as specified in settings...
+25-05-29 13:15:22 - modules.data_management.data_managers.publishing_manager - DEBUG - Loading publishing configuration from data_configs\publishing_config.yaml
+25-05-29 13:15:22 - modules.infrastructure.other_ops.file_operations - DEBUG - Attempting to open yaml file at data_configs\publishing_config.yaml
+25-05-29 13:15:22 - modules.infrastructure.other_ops.file_operations - DEBUG - YAML file at data_configs\publishing_config.yaml opened and parsed successfully
+25-05-29 13:15:22 - modules.data_management.data_managers.publishing_manager - INFO - Publishing configuration loaded successfully.
+25-05-29 13:15:22 - modules.data_management.data_managers.publishing_manager - DEBUG - Initializing output tables from publishing configuration
+25-05-29 13:15:22 - modules.data_management.data_managers.publishing_manager - INFO - Output table rcra_sites_intersections_publish initialized successfully.
+25-05-29 13:15:22 - modules.data_management.data_managers.publishing_manager - INFO - Output table pcb_facilities_intersections_publish initialized successfully.
+25-05-29 13:15:22 - modules.data_management.data_managers.publishing_manager - DEBUG - Building output tables
+25-05-29 13:15:22 - modules.data_management.data_managers.publishing_manager - DEBUG - Building table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Executing copy_table
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Table pcb_facilities_intersections_publish dropped successfully
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Table pcb_facilities_intersections_publish created successfully
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column REGION to table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column SITE_ID to table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column SITE_NAME to table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column LOCATION_ADDRESS to table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column LATITUDE to table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column LONGITUDE to table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column APPROVAL_STATUS to table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column APPROVAL_ACTIVITY_TYPE to table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column APPROVAL_TYPES to table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column TYPE_OF_PCB_ACTIVITIES to table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column LOCATION_STATE to table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column geometry to table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Copied data from pcb_facilities_prepared to pcb_facilities_intersections_publish for columns: REGION, SITE_ID, SITE_NAME, LOCATION_ADDRESS, LATITUDE, LONGITUDE, APPROVAL_STATUS, APPROVAL_ACTIVITY_TYPE, APPROVAL_TYPES, TYPE_OF_PCB_ACTIVITIES, LOCATION_STATE, geometry
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - INFO - Copied data from pcb_facilities_prepared to pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Executing left_join_table
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - INFO - Joined data from pcb_facilities_intersections_publish and pcb_facilities_intersections on SITE_ID saved to temp_joined_table_34524
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Executing remove_columns
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Removed columns ending with __vals from table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Removed columns ending with __haz_vals from table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Removed columns ending with __haz_max from table pcb_facilities_intersections_publish
+25-05-29 13:15:22 - modules.data_management.data_managers.publishing_manager - DEBUG - Table pcb_facilities_intersections_publish built successfully.
+25-05-29 13:15:22 - modules.data_management.data_managers.publishing_manager - DEBUG - Building table rcra_sites_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Executing copy_table
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Table rcra_sites_intersections_publish dropped successfully
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Table rcra_sites_intersections_publish created successfully
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column REGION to table rcra_sites_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column ACTIVITY_LOCATION to table rcra_sites_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column HANDLER_ID to table rcra_sites_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column HANDLER_NAME to table rcra_sites_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column LOCATION_ADDRESS to table rcra_sites_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column LOCATION_LATITUDE to table rcra_sites_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column LOCATION_LONGITUDE to table rcra_sites_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column FEDERAL_GENERATOR_STATUS to table rcra_sites_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column PERMITTED_STATUS to table rcra_sites_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column IS_CA to table rcra_sites_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column TSDF_YES_NO to table rcra_sites_intersections_publish
+25-05-29 13:15:22 - modules.data_management.sql_utils.sql_ops - DEBUG - Added column geometry to table rcra_sites_intersections_publish
+25-05-29 13:15:26 - modules.data_management.sql_utils.sql_ops - DEBUG - Copied data from rcra_handlers_prepared to rcra_sites_intersections_publish for columns: REGION, ACTIVITY_LOCATION, HANDLER_ID, HANDLER_NAME, LOCATION_ADDRESS, LOCATION_LATITUDE, LOCATION_LONGITUDE, FEDERAL_GENERATOR_STATUS, PERMITTED_STATUS, IS_CA, TSDF_YES_NO, geometry
+25-05-29 13:15:26 - modules.data_management.sql_utils.sql_ops - INFO - Copied data from rcra_handlers_prepared to rcra_sites_intersections_publish
+25-05-29 13:15:26 - modules.data_management.sql_utils.sql_ops - DEBUG - Executing left_join_table
+25-05-29 13:18:57 - modules.data_management.sql_utils.sql_ops - INFO - Joined data from rcra_sites_intersections_publish and rcra_sites_intersections on HANDLER_ID saved to temp_joined_table_5453
+25-05-29 13:18:57 - modules.data_management.sql_utils.sql_ops - DEBUG - Executing remove_columns
+25-05-29 13:18:57 - modules.data_management.sql_utils.sql_ops - DEBUG - Removed columns ending with __vals from table rcra_sites_intersections_publish
+25-05-29 13:18:57 - modules.data_management.sql_utils.sql_ops - DEBUG - Removed columns ending with __haz_vals from table rcra_sites_intersections_publish
+25-05-29 13:18:57 - modules.data_management.sql_utils.sql_ops - DEBUG - Removed columns ending with __haz_max from table rcra_sites_intersections_publish
+25-05-29 13:18:57 - modules.data_management.data_managers.publishing_manager - DEBUG - Table rcra_sites_intersections_publish built successfully.
+25-05-29 13:18:57 - modules.data_management.data_managers.publishing_manager - DEBUG - Publishing output tables
+25-05-29 13:18:57 - modules.data_management.data_managers.publishing_manager - DEBUG - Publishing table pcb_facilities_intersections_publish
+25-05-29 13:18:57 - modules.data_management.sql_utils.sql_ops - DEBUG - Executing table_to_geopackage
+25-05-29 13:18:57 - modules.data_management.sql_utils.sql_ops - INFO - Table pcb_facilities_intersections_publish published to GeoPackage output/pcb_facilities_intersections.gpkg as pcb_facilities_intersections.
+25-05-29 13:18:57 - modules.data_management.data_managers.publishing_manager - INFO - Table pcb_facilities_intersections_publish published successfully.
+25-05-29 13:18:57 - modules.data_management.data_managers.publishing_manager - DEBUG - Publishing output tables
+25-05-29 13:18:57 - modules.data_management.data_managers.publishing_manager - DEBUG - Publishing table rcra_sites_intersections_publish
+25-05-29 13:18:57 - modules.data_management.sql_utils.sql_ops - DEBUG - Executing table_to_geopackage
+25-05-29 13:19:18 - modules.data_management.sql_utils.sql_ops - INFO - Table rcra_sites_intersections_publish published to GeoPackage output/rcra_waste_handlers_intersections.gpkg as rcra_handlers_intersections.
+25-05-29 13:19:18 - modules.data_management.data_managers.publishing_manager - INFO - Table rcra_sites_intersections_publish published successfully.
+25-05-29 13:19:18 - modules.infrastructure.program_support.orchestration - INFO - Publishing processing complete
+25-05-29 13:19:18 - modules.infrastructure.program_support.orchestration - INFO - --------------------------------------------------------------------------------
+25-05-29 13:19:18 - __main__ - INFO - Program completed successfully
