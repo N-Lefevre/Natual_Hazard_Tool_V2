@@ -2,10 +2,10 @@ program_info_file: 'resources/program_info.txt'
 epa_ascii_art_file: 'resources/epa_logo_ascii.txt'
 instructions_file: 'resources/startup_instructions.txt'
 
-database_url: 'postgresql://postgres:H%4083j2rhfSK3$@localhost:5432/gis_database'
+database_url: 'postgresql://postgres:############'
 #database_url: 'postgresql://postgres:H@83j2rhfSK3$@localhost:5432/gis_database'
 
-agol_client_id: '2VkDDD1BPuRMQ5it'
+agol_client_id: '##########'
 
 intersection_table_column_names: #Update the table source if these names are changed. Must be lower case
   intersect_col: '__vals'
